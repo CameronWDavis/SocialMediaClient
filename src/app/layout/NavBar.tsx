@@ -8,7 +8,7 @@ type Props = {
 export default function NavBar({openForm}: Props) {
     return (
         <Box sx={{ flexGrow: 1 }}>
-            <AppBar position="static" sx={{ backgroundImage: 'linear-gradient(135deg, #182a73 0%, #218aae 69%, #20a7ac 89%)' }}>
+            <AppBar position="static" sx={{ backgroundImage: 'linear-gradient(135deg, #1a0050 0%, #7b1fa2 69%, #ab47bc 89%)' }}>
                 <Container maxWidth='xl'>
                     <Toolbar sx={{ display: 'flex', justifyContent: 'space-between' }}>
                         <Box>
